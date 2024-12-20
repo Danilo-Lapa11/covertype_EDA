@@ -16,7 +16,7 @@ MLP: Explorou-se o número de camadas ocultas, taxas de aprendizado e regulariza
 ### 2.3. Busca de Hiperparâmetros 
 Foi utilizada a técnica de RandomizedSearchCV para realizar a busca de hiperparâmetros em um espaço definido para cada modelo. Cinco rodadas foram realizadas para cada modelo, com três folds de validação cruzada.
 
-![hiperp](results\hiperp.png)
+![hiperp](results/hiperp.png)
 
 ## 3. Resultados 
 Os resultados foram avaliados com base na acurácia no conjunto de teste após cada rodada da busca de hiperparâmetros. Os melhores resultados foram:
@@ -49,12 +49,12 @@ O MLP foi o modelo de melhor desempenho para a base Covertype, superando os outr
 
 Curva de aprendizado para o modelo MLP mostrando as acurácias de treinamento e validação.
 
-![models](results\models_test_acuracy.png)
+![models](results/models_test_acuracy.png)
 
 Anexos Os códigos e os gráficos estão disponíveis para referência e reprodução do estudo.
 
-![dt](results\dt_lc.png)
-![dt](results\knn_lc.png)
-![dt](results\mlp_lc.png)
-![dt](results\svm_lc.png)
+![dt](results/dt_lc.png)
+![dt](results/knn_lc.png)
+![dt](results/mlp_lc.png)
+![dt](results/svm_lc.png)
 
